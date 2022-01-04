@@ -1,11 +1,11 @@
 import React from 'react'
-import { HomeHero } from '../components/home/home-hero'
-import ProductHero from '../components/home/ProductHero'
+
+import HomeHero from '../components/home/HomeHero'
 
 function Home() {
     return (
         <div>
-            <ProductHero />
+            <HomeHero />
         </div>
     )
 }
