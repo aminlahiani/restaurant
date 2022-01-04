@@ -8,7 +8,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
 const backgroundImage =
-  "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80";
+  "https://images.unsplash.com/photo-1484659619207-9165d119dafe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
 
 export default function HomeHero() {
   return (
@@ -27,7 +27,7 @@ export default function HomeHero() {
         <Box sx={{ backgroundColor: "#000", opacity: 0.7 }}>
           <Container
             sx={{
-              mb: 14,
+              mb: 5,
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
