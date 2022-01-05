@@ -63,9 +63,14 @@ export const MainNavbar = (props) => {
               },
             }}
           >
-            <RouterLink to="/dashboard" style={{ textDecoration: 'none' }}>
+            <RouterLink to="/" style={{ textDecoration: 'none' }}>
               <Link color="textSecondary" underline="none" variant="subtitle2">
-                Live Demo
+                Home
+              </Link>
+            </RouterLink>
+            <RouterLink to="team" style={{ textDecoration: 'none' }}>
+              <Link color="textSecondary"   sx={{ ml: 2 }} underline="none" variant="subtitle2">
+                Team
               </Link>
             </RouterLink>
             <RouterLink to="/browse" style={{ textDecoration: 'none' }}>
@@ -78,7 +83,7 @@ export const MainNavbar = (props) => {
                 Components
               </Link>
             </RouterLink>
-            <RouterLink to="/docs/welcome" style={{ textDecoration: 'none' }}>
+            <RouterLink to="/reservation" style={{ textDecoration: 'none' }}>
               <Link
                 color="textSecondary"
                 component="a"
@@ -86,7 +91,7 @@ export const MainNavbar = (props) => {
                 underline="none"
                 variant="subtitle2"
               >
-                Documentation
+                Reservation
               </Link>
             </RouterLink>
             <Button

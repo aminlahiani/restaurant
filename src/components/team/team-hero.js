@@ -4,7 +4,7 @@ import { useTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
 
 
-export const HomeHero = (props) => {
+export const TeamHero = (props) => {
   const theme = useTheme();
 
   return (
