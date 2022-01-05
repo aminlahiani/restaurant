@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 //import { Footer } from './footer';
 import { MainNavbar } from './main-navbar';
 import { MainSidebar } from './main-sidebar';
+import { Footer } from './footer';
 
 const MainLayoutRoot = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
@@ -24,7 +25,7 @@ export const MainLayout = () => {
         open={isSidebarOpen}
       /> 
          <Outlet />
-      {/* <Footer /> */}
+         <Footer/>
     </MainLayoutRoot>
   );
 };
